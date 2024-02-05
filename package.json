@@ -10,8 +10,23 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@sidebase/nuxt-auth": "^0.6.7",
+    "@tailwindcss/forms": "^0.5.7",
+    "@types/bcrypt": "^5.0.2",
+    "@types/node": "^18.16.19",
     "nuxt": "^3.10.0",
+    "prisma": "^5.9.1",
     "vue": "^3.4.15",
     "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@next-auth/prisma-adapter": "^1.0.7",
+    "@nuxtjs/tailwindcss": "^6.11.2",
+    "@prisma/client": "^5.9.1",
+    "bcrypt": "^5.1.1",
+    "clsx": "^2.1.0",
+    "next-auth": "4.22.1",
+    "nuxt-icon": "^0.6.8"
   }
 }
